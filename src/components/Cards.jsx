@@ -16,12 +16,7 @@ export default function Cards(){
 
     return(
         <>
-
-        <div className="image">
-            <h1>Kickoff<span>!</span></h1>
-            <img src="/icon.png" alt="icono" />
-        </div>
-
+        
         <p className="info__main">Los mejores jugadores en la liga en esta sección.</p>
 
         <div className="grid">
