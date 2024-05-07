@@ -95,6 +95,32 @@ span{
     border-radius: 10px;
 }
 
+.teams{
+    margin-top: 40px;
+}
+
+.card__equipos{
+    display: flex;
+    background-color: rgb(24, 29, 46, 0.493);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card__equipos > img{
+    width: 8%;
+}
+
+.info__equipo > p{
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+
 @media screen and (max-width:800px) {
     
     .card{
@@ -114,6 +140,18 @@ span{
 
     .card__team{
         justify-content: center;
+    }
+
+    .info__equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card__equipos > img{
+        width: 20%;
     }
 
 }
