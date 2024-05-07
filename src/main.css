@@ -120,6 +120,46 @@ span{
     max-width: 600px;
 }
 
+.card__drafts{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 29, 46, 0.493);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.selecciones{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.selected{
+    background-color: rgb(54, 139, 73);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.selec{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(207, 13, 13);
+}
 
 @media screen and (max-width:800px) {
     
