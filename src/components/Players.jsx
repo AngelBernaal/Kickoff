@@ -118,7 +118,7 @@ export const Players = [{
 
     {
         id: 13,
-        image: "/12.png",
+        image: "/10.jpg",
         name: "CJ Stroud",
         position: "QB",
         team: "/texans.png",
