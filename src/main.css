@@ -161,6 +161,20 @@ span{
     background-color: rgb(207, 13, 13);
 }
 
+.pagina{
+    background: linear-gradient(to right, rgb(4, 4, 15) 40%, rgb(7, 25, 51) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    font-size: 0.6rem;
+}
+
 @media screen and (max-width:800px) {
     
     .card{
