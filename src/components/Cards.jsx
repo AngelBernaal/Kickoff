@@ -19,7 +19,7 @@ export default function Cards(){
 
         <div className="image">
             <h1>Kickoff<span>!</span></h1>
-            <img src="/images/icon.png" alt="icono" />
+            <img src="/icon.png" alt="icono" />
         </div>
 
         <div className="grid">
