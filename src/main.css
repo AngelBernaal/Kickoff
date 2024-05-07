@@ -77,29 +77,7 @@ span{
 .card__team > img{
     width: 20%;
 }
-
-.action{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.action > button{
-    background-color: rgb(255, 255, 255);
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-}
-
-.seg{
-    padding: 8px;
-    border-radius: 10px;
-    font-weight: bold;
-    outline: 2px solid white;
-}
-
+ 
 .grid{
     display: grid;
     gap: 20px;
