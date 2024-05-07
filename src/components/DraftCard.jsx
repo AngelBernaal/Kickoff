@@ -88,7 +88,30 @@ export const DraftCard = [{
                     selection: false,
                     position: 'RB'},
                 ]
-                }
+                },
+
+                {
+                    id: 4,
+                    name: "Detroit Lions",
+                    team: "/lions.png",
+                    description: "Reforzando el equipo, los Lions tuvieron un gran draft, seleccionando buenos jugadores.",
+                    selecciones: [{
+                        selection: false,
+                        position: 'E'},
+                        {
+                        selection: true,
+                        position: 'DT'},
+                        {
+                        selection: true,
+                        position: 'S'},
+                        {
+                        selection: true,
+                        position: 'CB'},
+                        {
+                        selection: false,
+                        position: 'WR'},
+                    ]
+                    }
 
 
 ];

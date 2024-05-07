@@ -150,6 +150,9 @@ span{
 }
 
 .selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(54, 139, 73);
     width: 40px;
     height: 40px;
@@ -158,6 +161,9 @@ span{
 }
 
 .selec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     padding: 10px;
