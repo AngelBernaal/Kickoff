@@ -4,7 +4,7 @@ export const Players = [{
         name: "Patrick Mahomes",
         position: "QB",
         team: "/kansascity.png",
-        description: "Su habilidad para leer las defensas y su precisión en el pase lo convierten en uno de los quarterbacks más emocionantes de la liga."
+        description: "Con su habilidad para lanzar pases precisos y su capacidad para improvisar, Mahomes ha demostrado ser uno de los mejores quarterbacks de la liga."
     },
 
     {
@@ -41,7 +41,7 @@ export const Players = [{
         name: "Christian McCaffrey",
         position: "RB",
         team: "/niners.png",
-        description: "Con una combinación única de velocidad, agilidad y visión en el campo, McCaffrey es una pieza clave."
+        description: "Con una combinación única de velocidad, agilidad y visión en el campo, McCaffrey es una pieza clave en el campo."
     },
 
     {
@@ -59,7 +59,7 @@ export const Players = [{
         name: "T.J. Watt",
         position: "EDGE",
         team: "/pitts.png",
-        description: "Con una combinación única de velocidad, agilidad y visión en el campo, Watt es un cazamariscales dominante."
+        description: "Watt es un jugador impactante en la defensa, capaz de generar presión sobre el mariscal de campo y detener la carrera."
     },
 
     {
@@ -87,6 +87,51 @@ export const Players = [{
         position: "EDGE",
         team: "/clev.png",
         description: "Garrett es un cazamariscales físico con una explosividad única, capaz de derribar al mariscal de campo con facilidad."
+    },
+
+    {
+        id: 10,
+        image: "/9.jpg",
+        name: "Sam LaPorta",
+        position: "TE",
+        team: "/lions.png",
+        description: "LaPorta es un tight end versátil que puede bloquear y recibir pases con igual eficacia, proporcionando una opción confiable para su mariscal de campo."
+    },
+
+    {
+        id: 11,
+        image: "/10.png",
+        name: "Dalton Kincaid",
+        position: "TE",
+        team: "/bills.png",
+        description: "Kincaid es un tight end físico con una capacidad excepcional para bloquear y atrapar pases, siendo una opción confiable en el juego aéreo y terrestre."
+    },
+
+    {
+        id: 12,
+        image: "/11.jpg",
+        name: "Brock Purdy",
+        position: "QB",
+        team: "/niners.png",
+        description: "Purdy es un quarterback inteligente y preciso que puede liderar a su equipo en situaciones de presión, mostrando una gran habilidad para tomar decisiones rápidas."
+    },
+
+    {
+        id: 13,
+        image: "/12.png",
+        name: "CJ Stroud",
+        position: "QB",
+        team: "/texans.png",
+        description: "Stroud es un mariscal de campo joven con un gran potencial, capaz de hacer jugadas precisas en el bolsillo y fuera de él, siendo una amenaza constante para las defensas rivales."
+    },
+
+    {
+        id: 14,
+        image: "/12.jpg",
+        name: "Justin Herbert",
+        position: "QB",
+        team: "/LA.png",
+        description: "Herbert es un mariscal de campo joven con un brazo potente y una gran habilidad para leer defensas, siendo una amenaza constante para las defensas rivales."
     }
     
 ];

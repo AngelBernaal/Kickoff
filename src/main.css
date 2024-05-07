@@ -47,7 +47,7 @@ span{
     flex-wrap: wrap;
     border-radius: 10px;
     color: white;
-    max-width: max-content;
+    max-width: 100%;
 }
 
 .card > img{
