@@ -13,7 +13,7 @@ p{
 }
 
 span{
-    color: rgb(60, 96, 128);
+    color: rgb(22, 37, 105);
     font-weight: bold;
 }
 
@@ -81,6 +81,18 @@ span{
 .grid{
     display: grid;
     gap: 20px;
+}
+
+.info__main{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(22, 37, 105) 50%, rgb(11, 11, 54)) ;
+    border-radius: 10px;
 }
 
 @media screen and (max-width:800px) {
