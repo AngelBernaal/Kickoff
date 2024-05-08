@@ -29,7 +29,7 @@ export default function BestGames(){
         <>
         <p className="info__main teams">Las mejores imagenes de tus jugadores favoritos.</p>
         <div className="card__images">
-        <img src={players.image} alt="img" className="image__card" />
+        <img src={players.image} alt="img" className="image__card" loading="lazy"/>
         <div className="botones">
         <button onClick={handleClickAnt}><FontAwesomeIcon icon={faArrowLeft} /></button>
         <button onClick={handleClick}><FontAwesomeIcon icon={faArrowRight} /></button>

@@ -4,7 +4,7 @@ import { DraftCard } from "./DraftCard";
 export default function Draft() {
     const drafts = DraftCard.map((equipos) => (
         <div key={equipos.id} className="card__drafts">
-            <img src={equipos.team} alt={equipos.name} />
+            <img src={equipos.team} alt={equipos.name} loading="lazy" />
             <div className="info__equipo">
                 <h2>{equipos.name}</h2>
                 <p>{equipos.description}</p>

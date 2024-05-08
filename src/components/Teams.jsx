@@ -5,7 +5,7 @@ export default function Teams(){
 
     const teams = TeamsCard.map(equipos =>
         <div key={TeamsCard.id} className="card__equipos">
-            <img src={equipos.team} alt={equipos.name} />
+            <img src={equipos.team} alt={equipos.name} loading="lazy" />
             <div className="info__equipo">
             <h2>{equipos.name}</h2>
             <p>{equipos.description}</p>

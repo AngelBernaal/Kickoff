@@ -5,7 +5,7 @@ export default function Cards(){
 
     const section = Players.map(player => 
         <div key={Players.id} className="card">
-        <img src={player.image} alt={player.name} />
+        <img src={player.image} alt={player.name} loading="lazy"/>
         <div className="info">
         <h2>{player.name}</h2>
         <p className="card__team">{player.position}{" | "}{ <img src={player.team} alt={player.name} />}</p>
