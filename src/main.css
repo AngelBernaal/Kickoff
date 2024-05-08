@@ -181,23 +181,12 @@ span{
     padding: 10px;
 }
 
-.card__icon{
-   position: relative;
-}
-
 .image__card{
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
-.icon{
-    width: 8%;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.botones__card{
+.botones{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,11 +194,11 @@ span{
     gap: 8px;
 }
 
-.botones__card > button{
-    background-color: rgb(24, 29, 46, 0.493);
+.botones > button{
+    background-color: transparent;
+    border: none;
     color: white;
     padding: 8px;
-    border: none;
     font-size: 1.4rem;
     border-radius: 10px;
 }
