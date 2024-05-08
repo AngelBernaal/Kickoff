@@ -170,6 +170,50 @@ span{
     background-color: rgb(207, 13, 13);
 }
 
+.card__images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card__icon{
+   position: relative;
+}
+
+.image__card{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 8%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.botones__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.botones__card > button{
+    background-color: rgb(24, 29, 46, 0.493);
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+
 .pagina{
     background: linear-gradient(to right, rgb(4, 4, 15) 40%, rgb(9, 13, 19) 100%);
     display: flex;

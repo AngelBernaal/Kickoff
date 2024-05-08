@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Cards from './components/Cards'
 import Teams from './components/Teams'
 import Draft from './components/Draft'
+import BestGames from './components/BestGames'
 import Pagina from './components/Pagina'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Cards/>
     <Teams/>
     <Draft/>
+    <BestGames/>
     </section>
     <Pagina/>
   </React.StrictMode>,
