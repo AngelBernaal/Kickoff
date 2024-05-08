@@ -180,6 +180,7 @@ span{
     border-radius: 10px;
     padding: 10px;
     position: relative;
+    background-color: rgb(14, 16, 27);
 }
 
 .image__card{
@@ -198,7 +199,7 @@ span{
 }
 
 .botones > button{
-    background-color: rgb(13, 16, 27);
+    background-color: rgb(14, 16, 27);
     border: none;
     color: white;
     padding: 8px;
