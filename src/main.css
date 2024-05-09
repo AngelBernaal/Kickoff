@@ -188,23 +188,23 @@ span{
     border-radius: 10px;
 }
 
-.botones{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: absolute;
-    gap: 8px;
-}
-
-.botones > button{
+.card__images > button{
     background-color: rgb(14, 16, 27);
     border: none;
     color: white;
     padding: 8px;
     font-size: 1.4rem;
     border-radius: 10px;
+}
+
+.anterior{
+    position: absolute;
+    left: 0%;
+}
+
+.siguiente{
+    position: absolute;
+    right: 0%;
 }
 
 .pagina{

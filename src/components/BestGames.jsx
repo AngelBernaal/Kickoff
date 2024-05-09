@@ -11,14 +11,17 @@ export default function BestGames(){
 
     const [index, setIndex] = useState(0);
 
+    let siguiente = index < BestGame.length -1;
+    let anterior = index > 0;
+
     function handleClick(){
-        if(index < BestGame.length -1){
+        if(siguiente){
             setIndex(index + 1)
     }
     }
 
     function handleClickAnt(){
-       if(index > 0){
+       if(anterior){
         setIndex(index - 1)
        }
     }
@@ -30,10 +33,8 @@ export default function BestGames(){
         <p className="info__main teams">Las mejores imagenes de tus jugadores favoritos.</p>
         <div className="card__images">
         <img src={players.image} alt="img" className="image__card" loading="lazy"/>
-        <div className="botones">
-        <button onClick={handleClickAnt}><FontAwesomeIcon icon={faArrowLeft} /></button>
-        <button onClick={handleClick}><FontAwesomeIcon icon={faArrowRight} /></button>
-        </div>
+        <button className="anterior" onClick={handleClickAnt} hidden={!anterior}><FontAwesomeIcon icon={faArrowLeft} /></button>
+        <button className="siguiente" onClick={handleClick} hidden={!siguiente}><FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
         </>
     )
