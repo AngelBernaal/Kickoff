@@ -68,6 +68,28 @@ span{
     margin: auto;
 }
 
+.button__main{
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(9, 40, 141);
+    color: white;
+    font-weight: bold;
+}
+
+.section__main{
+    padding: 8px;
+}
+
+.section__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
 .card__team{
     display: flex;
     justify-content: flex-start;
