@@ -4,7 +4,7 @@ import { TeamsCard } from "./TeamsCard"
 export default function Teams(){
 
     const teams = TeamsCard.map(equipos =>
-        <div key={TeamsCard.id} className="card__equipos">
+        <div key={equipos.id} className="card__equipos">
             <img src={equipos.team} alt={equipos.name} loading="lazy" />
             <div className="info__equipo">
             <h2>{equipos.name}</h2>
