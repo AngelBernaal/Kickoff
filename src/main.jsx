@@ -6,6 +6,7 @@ import Teams from './components/Teams'
 import Draft from './components/Draft'
 import BestGames from './components/BestGames'
 import Pagina from './components/Pagina'
+import Song from './components/Song'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Teams/>
     <Draft/>
     <BestGames/>
+    <Song/>
     </section>
     <Pagina/>
   </React.StrictMode>,

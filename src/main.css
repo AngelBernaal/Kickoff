@@ -243,6 +243,44 @@ span{
     font-size: 0.6rem;
 }
 
+.card__music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(14, 16, 27);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.info__music{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    max-width: 50%;
+}
+
+.info__music > img{
+    width: 80px;
+    border-radius: 10px;
+}
+
+
+.links__music{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.link__music{
+    max-width: 40px;
+}
+
 @media screen and (max-width:800px) {
     
     .card{
@@ -274,6 +312,22 @@ span{
 
     .card__equipos > img{
         width: 20%;
+    }
+
+    .card__music{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info__music{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links__music{
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
 }

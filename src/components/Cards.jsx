@@ -39,7 +39,7 @@ const [count, setCount] = useState(0);
 const seguir = (id) => setCount(prev => ({...prev, [id]: (prev[id] || 0) +1}))
 const seguirn = (id) => setCount(prev => ({...prev, [id]: (prev[id] || 1) -1}))
 
-    const section = Players.map((player, id) => 
+    const section = Players.map((player) => 
         <div key={player.id} className="card">
         <img src={player.image} alt={player.name} loading="lazy"/>
         <div className="info">
