@@ -1,5 +1,8 @@
 import { Players } from "./Players";
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserPlus} from '@fortawesome/free-solid-svg-icons';
+import { faUserMinus} from '@fortawesome/free-solid-svg-icons';
 import "../main.css"
 
 
@@ -8,6 +11,7 @@ export default function Cards(){
     const [count, setCount] = useState(0);
 
     const seguir = (id) => setCount(prev => ({...prev, [id]: (prev[id] || 0) +1}))
+    const seguirn = (id) => setCount(prev => ({...prev, [id]: (prev[id] || 1) -1}))
 
     const Show = (props) =>{
         return(
@@ -20,7 +24,15 @@ export default function Cards(){
     const Button = (props) =>{
         return(
             <>
-            <button className="button__main" onClick={props.onClick}>{props.name}</button>
+            <button className="button__main" onClick={props.onClick}>{<FontAwesomeIcon icon={props.name} />}</button>
+            </>
+        )
+    }
+
+    const ButtonN = (props) =>{
+        return(
+            <>
+            <button className="button__main" onClick={props.onClick}>{<FontAwesomeIcon icon={props.name} />}</button>
             </>
         )
     }
@@ -33,7 +45,8 @@ export default function Cards(){
         <p className="card__team">{player.position}{" | "}{ <img src={player.team} alt={player.name} />}</p>
         <p className='desc'>{player.description}</p>
         <div className="section__button">
-        <Button name="Seguir" onClick={() => seguir(player.id)} />
+        <ButtonN name={faUserPlus} onClick={() => seguir(player.id)} />
+        <Button name={faUserMinus} onClick={() => seguirn(player.id)} />
         <Show count={count[player.id] || 0} />
         </div>
         </div>
