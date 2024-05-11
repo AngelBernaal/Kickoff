@@ -25,7 +25,7 @@ export default function Songs(){
 
     return(
         <>
-        <p className="info__main teams">Las álbumes mas eschuchados por tus jugadores favoritos.</p>
+        <p className="info__main teams">Las álbumes más eschuchados por tus jugadores favoritos.</p>
         <div className="grid">{cancion}</div>
         </>
     )
